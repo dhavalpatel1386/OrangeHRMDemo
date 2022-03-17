@@ -1,0 +1,261 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 175081400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open valid url",
+            "match": {
+              "location": "LoginTest.i_Open_valid_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14159623300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "verify user login successfully",
+        "description": "",
+        "id": "login-test;verify-user-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 173313600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 386062500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid credential",
+            "match": {
+              "location": "LoginTest.i_enter_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4770352800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I redirect to Dashbord",
+            "match": {
+              "location": "LoginTest.i_redirect_to_Dashbord()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 66300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open valid url",
+            "match": {
+              "location": "LoginTest.i_Open_valid_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13224711400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify validation error for username and password",
+        "description": "",
+        "id": "login-test;verify-validation-error-for-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 130096800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167243000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login button without entering username password",
+            "match": {
+              "location": "LoginTest.i_click_on_the_Login_button_without_entering_username_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49145300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "It should shows expected validation error message",
+            "match": {
+              "location": "LoginTest.it_should_shows_expected_validation_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open valid url",
+            "match": {
+              "location": "LoginTest.i_Open_valid_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15891299000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify on ForgotPassword  cancel button work as expected",
+        "description": "",
+        "id": "login-test;verify-on-forgotpassword--cancel-button-work-as-expected",
+        "after": [
+          {
+            "result": {
+              "duration": 180500400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1015760300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on ForgotPassword link",
+            "match": {
+              "location": "LoginTest.i_click_on_ForgotPassword_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 805916400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Cancel button",
+            "match": {
+              "location": "LoginTest.i_click_on_Cancel_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14405800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I redirect to Login Screen",
+            "match": {
+              "location": "LoginTest.i_redirect_to_Login_Screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@login"
+      }
+    ]
+  }
+]

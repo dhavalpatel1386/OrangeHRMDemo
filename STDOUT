@@ -1,0 +1,24 @@
+@login
+Feature: Login Test
+
+  Background:              # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:4
+    Given I Open valid url # LoginTest.i_Open_valid_url()
+
+  Scenario: verify user login successfully # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:6
+    When I enter valid credential          # LoginTest.i_enter_valid_credential()
+    Then I redirect to Dashbord            # LoginTest.i_redirect_to_Dashbord()
+
+  Background:              # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:4
+    Given I Open valid url # LoginTest.i_Open_valid_url()
+
+  Scenario: Verify validation error for username and password           # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:10
+    When I click on the Login button without entering username password # LoginTest.i_click_on_the_Login_button_without_entering_username_password()
+    Then It should shows expected validation error message              # LoginTest.it_should_shows_expected_validation_error_message()
+
+  Background:              # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:4
+    Given I Open valid url # LoginTest.i_Open_valid_url()
+
+  Scenario: Verify on ForgotPassword  cancel button work as expected # E:/OrangeHRM/OrangeHRMS/Website/Testcases/Features/Login.feature:14
+    When I click on ForgotPassword link                              # LoginTest.i_click_on_ForgotPassword_link()
+    And I click on Cancel button                                     # LoginTest.i_click_on_Cancel_button()
+    Then I redirect to Login Screen                                  # LoginTest.i_redirect_to_Login_Screen()
